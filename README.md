@@ -3,7 +3,7 @@ Website for swimming center Splashes
 
 | Item # | Required pages | Priority | Owner |
 | ------ | -------------- | -------- | ----- |
-| 1      | about          | 3        |       |
+| 1      | about          | 3        |Melany |
 | 2      | adultprograms  | 7        |       |
 | 3      | contact        | 2        | Chau  |
 | 4      | home           | 1        | Chau  |
