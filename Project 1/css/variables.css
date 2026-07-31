@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Bodoni_Moda_Titles';
+    src: url('/Project 1/Fonts/Bodoni_Moda/static/BodoniModa_72pt/BodoniModa_72pt-Bold.ttf');
+    font-weight: bold;
+    font-size: 48px;
+}
+@font-face {
+    font-family: 'Bodoni_Moda_Headings';
+    src: url('/Project 1/Fonts/Bodoni_Moda/static/BodoniModa_72pt/BodoniModa_72pt-Bold.ttf');
+    font-weight: bold;
+    font-size: 32px;
+}
+@font-face {
+    font-family: 'Henny_Penny';
+    src: url('/Project 1/Fonts/Henny_Penny/HennyPenny-Regular.ttf');
+}
+@font-face {
+    font-family: 'Open_Sans';
+    src: url('/Project 1/Fonts/open-sans/Open Sans Bold Italic.ttf');
+    font-size: 16px;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'Open_Sans';
+    src: url('/Project 1/Fonts/open-sans/OpenSans-Italic.ttf');
+    font-size: 16px;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open_Sans';
+    src: url('/Project 1/Fonts/open-sans/OpenSans-Light.ttf');
+    font-size: 16px;
+    font-style: light;
+}
+@font-face {
+    font-family: 'Open_Sans';
+    src: url('/Project 1/Fonts/open-sans/OpenSans-LightItalic.ttf');
+    font-size: 16px;
+    font-style: light italic;
+}
+@font-face {
+    font-family: 'Open_Sans';
+    src: url('/Project 1/Fonts/open-sans/OpenSans-Regular.ttf');
+    font-size: 16px;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open_Sans';
+    src: url('/Project 1/Fonts/open-sans/OpenSans-Semibold.ttf');
+    font-size: 16px;
+    font-style: normal;
+    font_weight: 600;
+}
+@font-face {
+    font-family: 'Open_Sans';
+    src: url('/Project 1/Fonts/open-sans/OpenSans-SemiboldItalic.ttf');
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Snowburst_One';
+    src: url('/Project 1/Fonts/Snowburst_One/SnowburstOne-Regular.ttf');
+}
+
+
+:root {
+    --off-white: #E4EAEA;
+    --navy: #1A2E38;
+    --grey: #444444;
+    --light-grey: #757576;
+    --blue: #03B1F4;
+    --bodoni-moda-titles: 'Bodoni_Moda_Titles', sans-serif;
+    --bodoni-moda-headings: 'Bodoni_Moda_Headings', sans-serif;
+    --henny-penny: 'Henny_Penny', sans-serif;
+    --open-sans: 'Open_Sans', sans-serif;
+    --snowburst-one: 'Snowburst_One', sans-serif;
+}

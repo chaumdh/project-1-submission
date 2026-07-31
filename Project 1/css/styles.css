@@ -1,0 +1,64 @@
+@import 'variables.css';
+@import 'header.css';
+@import 'footer.css';
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+main {
+    font-family: var(--open-sans);
+}
+main .page-headings {
+    text-align: center;
+    width: 100%;
+    min-height: 850px;
+    margin-bottom: 10px;
+}
+main .page-headings h1 {
+    font-family: var(--bodoni-moda-titles);
+    color: #fff;
+    width: 500px;
+    text-align: center;
+    transform: translate(100%, 100%);
+}
+
+/* HOME */
+#home main .page-headings {
+    background: no-repeat lightgrey url(../images/home.jpeg);
+    background-size: 1500px;
+}
+#home main .page-headings button {
+    position: relative;
+    top: 400px;
+    padding: 2em;
+    font-family: var(--open-sans);
+    font-weight: 600px;
+    font-size: 20px;
+    color: var(--blue);
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 5px;
+}
+#home main #ads {
+    text-align: center;
+}
+#home main #ads img{
+    margin: 10px 0;
+}
+#home main #hands-on-teaching {
+    background: no-repeat lightgrey url(../images/home-hands-on-teaching.jpeg);
+    background-size: 1500px;
+    height: 574px;
+}
+#home main #hands-on-teaching > * {
+    width: 500px;
+    margin-left: 100px;
+}
+#home main #home-locations {
+    background: no-repeat lightgrey url(../images/home-our-locations-bg.jpeg);
+    background-size: 1500px;
+    height: 752px;
+}
+
+
