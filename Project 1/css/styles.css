@@ -2,20 +2,25 @@
 @import 'header.css';
 @import 'footer.css';
 
-#container{
+#container {
     display: flex;
     flex-direction: column;
 }
 main {
     font-family: var(--open-sans);
 }
-main .page-headings {
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+header .page-heading {
     text-align: center;
     width: 100%;
     min-height: 850px;
     margin-bottom: 10px;
 }
-main .page-headings h1 {
+header .page-heading h1 {
     font-family: var(--bodoni-moda-titles);
     color: #fff;
     width: 500px;
@@ -24,11 +29,11 @@ main .page-headings h1 {
 }
 
 /* HOME */
-#home main .page-headings {
+#home header .page-heading {
     background: no-repeat lightgrey url(../images/home.jpeg);
     background-size: 1500px;
 }
-#home main .page-headings button {
+#home header .page-heading button {
     position: relative;
     top: 400px;
     padding: 2em;
