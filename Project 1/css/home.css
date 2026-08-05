@@ -1,0 +1,40 @@
+@import "variables.css";
+@import "header.css";
+
+/* HOME */
+/* TODO: import home.css into styles.css */
+#home header .page-heading {
+    background-image: url(../images/home.jpeg);  
+}
+#home header .page-heading button {
+    position: relative;
+    top: 400px;
+    padding: 2em;
+    font-family: var(--open-sans);
+    font-weight: 600px;
+    font-size: 20px;
+    color: var(--blue);
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 5px;
+}
+#home main #ads {
+    text-align: center;
+}
+#home main #ads img{
+    margin: 10px 0;
+}
+#home main #hands-on-teaching {
+    background: no-repeat lightgrey url(../images/home-hands-on-teaching.jpeg);
+    background-size: 1500px;
+    height: 574px;
+}
+#home main #hands-on-teaching > * {
+    width: 500px;
+    margin-left: 100px;
+}
+#home main #home-locations {
+    background: no-repeat lightgrey url(../images/home-our-locations-bg.jpeg);
+    background-size: 1500px;
+    height: 752px;
+}

@@ -3,6 +3,7 @@
     <head>
         <title>Splashes</title>
         <meta charset="utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
 
         <!-- Colors & Fonts -->
         <link rel="stylesheet" href="css/variables.css">
@@ -11,10 +12,14 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- External Style Method -->
-        <link rel="stylesheet" href="css/styles.css">
+        <!-- <link rel="stylesheet" href="css/styles.css"> -->
+        <link rel="stylesheet" href="css/home.css"> <!-- TODO: remove this line when home.css is imported in styles.css -->
 
         <!-- jQuery -->
-        <script src="./jquery-4.0.0.min.js"></script>
+        <!-- <script src="./jquery-4.0.0.min.js"></script> -->
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     </head>
 
     <body id="home">
@@ -66,67 +71,17 @@
                 </div>
             </section>
             
-            <!-- Footer Information -->
-            <footer>
-                <div>
-                    <img src="images/wave-small.png">
-                    <nav class="footer-menu">
-                        <ul>
-                            <!-- <li class="active"><a href="index.html">Home</a></li> -->
-                            <li><a href="cliffs.html">About</a></li>
-                            <li><a href="lessons.html">Locations</a></li>
-                            <li><a href="swimprograms.html">FAQs</a></li>
-                            <li><a href="adultprograms.html">Contact</a></li>
-                            <li><a href="locations.html">Register / Sign In</a></li>
-                            <li><a href="contact.html">Careers</a></li>
-                        </ul>
-                    </nav>
-                    <div class="social">
-                        <a href="#" class="fa fa-linkedin"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-yelp"></a>
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-youtube"></a>
-                    </div>
-                </div>
-                <div id="contact-by-location">
-                    <div>
-                        <p>Orange County</p>
-                        <p>(949) 450-0777</p>
-                    </div>
-                    <div>
-                        <p>San Diego County</p>
-                        <p>(760) 603-9400</p>
-                    </div>
-                    <div>
-                        <p>Los Angeles County</p>
-                        <p>(626) 836-1200</p>
-                    </div>
-                    <div>
-                        <p>Northern California</p>
-                        <p>(408) 279-1700</p>
-                    </div>
-                    <div>
-                        <p>Denver</p>
-                        <p>(720) 344-7700</p>
-                    </div>
-                </div>
-                <div class="sponsors">
-                    <img src="images/sponsors/footer-usssa-logo-2.png">
-                    <img src="images/sponsors/footer-ndpa-logo.png">
-                    <img src="images/sponsors/footer-member-issa-logo.png">
-                    <img src="images/sponsors/footer-stop-drowning-now-logo.png">
-                </div>
-                <div id="copyright">
-                    <div class="copy">&copy; 2022 Splashes</div>
-                    <p>All Rights Reserved</p>
-                </div>
-            </footer>
+            <footer></footer>
 
         </div> <!-- End Container -->
 
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
         <script src="./js/header.js"></script>
         <script src="./js/home.js"></script>
+        <script src="./js/footer.js"></script>
     </body>
 </html>
