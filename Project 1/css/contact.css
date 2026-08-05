@@ -1,0 +1,8 @@
+@import "variables.css";
+@import "header.css";
+
+/* CONTACT */
+/* TODO: import contact.css into styles.css */
+#contact header .page-heading {
+    background-image: url(../images/contact-hero.jpeg);
+}
