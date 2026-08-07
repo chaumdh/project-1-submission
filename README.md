@@ -1,18 +1,4 @@
 # project-1-submission
 Website for swimming center Splashes
 
-| Item # | Required pages | Priority | Owner |
-| ------ | -------------- | -------- | ----- |
-| 1      | about          | 3        |Melany |
-| 2      | adultprograms  | 7        |       |
-| 3      | contact        | 2        | Chau  |
-| 4      | home           | 1        | Chau  |
-| 5      | locations      | 4        |       |
-| 6      | signin         | 8        |       |
-| 7      | swimlessons    | 5        |       |
-| 8      | swimprograms   | 6        |       |
-
-| Item # | Webpage features | Priority | Owner |
-| ------ | ---------------- | -------- | ----- |
-| 1      | hamburger-menu   |          |       |
-| 2      | sticky-navbar    |          |       |
+Project Plan: https://docs.google.com/spreadsheets/d/16UYfOBCvT4wtO6qI4MTYE4kNad9xyqkbHoRHv_lDenI/edit?usp=sharing
