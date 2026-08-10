@@ -1,0 +1,9 @@
+@import "variables.css";
+@import "header.css";
+
+/* ADULT PROGRAMS */
+/* TODO: import adultprograms.css into styles.css */
+#adultprograms header .page-heading {
+    background-image: url(../images/lap-swimming.jpeg);  
+}
+
