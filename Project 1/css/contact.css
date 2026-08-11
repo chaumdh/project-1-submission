@@ -7,3 +7,21 @@
 #contact header .page-heading {
     background-image: url(../images/contact-hero.jpeg);
 }
+.page-heading h1 {
+    color: #ffffff;                             /* White text */
+    font-family: 'Georgia', serif;             /* Serif font style matching the image */
+    font-size: 3rem;                           /* Adjust text size */
+    font-weight: 700;                          /* Bold weight */
+    text-align: center;                        /* Horizontal centering */
+    margin: 0;
+    
+    /* Subtle drop shadow to increase readability over the background image */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+}
+
+/* Ensure the parent container centers the text vertically and horizontally */
+.page-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

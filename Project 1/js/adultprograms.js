@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    $('.page-heading').append('<h1>Adult Lap Swimming</h1>');
-    $('main').append(`<h2>Get Fit & Stay Fit With Daily Lap Swimming.</h2>`);
+    $('.page-heading').addClass('d-flex justify-content-center align-items-center');
+    $('.page-heading').append('<h1 class="text-white font-weight-bold text-center">Adult Lap Swimming</h1>');
 });

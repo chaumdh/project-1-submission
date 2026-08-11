@@ -7,3 +7,10 @@
     background-image: url(../images/lap-swimming.jpeg);  
 }
 
+.page-heading h1 {
+    font-size: 3.5rem; /* Increase or decrease this value to resize (e.g., 2.5rem, 3rem, 4rem) */
+    color: #ffffff;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    text-align: center;
+}
