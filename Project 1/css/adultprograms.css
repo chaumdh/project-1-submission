@@ -4,7 +4,10 @@
 /* ADULT PROGRAMS */
 /* TODO: import adultprograms.css into styles.css */
 #adultprograms header .page-heading {
-    background-image: url(../images/lap-swimming.jpeg);  
+    background-image: url(../images/lap-swimming.jpeg); 
+    background-size: 100% auto;
+    height: 30em;
+    /* margin-top: -10px; */
 }
 
 .page-heading h1 {
@@ -14,3 +17,5 @@
     font-weight: bold;
     text-align: center;
 }
+
+
