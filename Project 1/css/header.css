@@ -24,7 +24,7 @@ header .page-heading h1 {
     color: #fff;
     width: 600px;
     text-align: center;
-    transform: translate(100%, 100%);
+    /* transform: translate(100%, 100%); */
 }
 /* END STYLES.CSS */
 
