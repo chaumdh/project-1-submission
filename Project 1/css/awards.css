@@ -1,0 +1,35 @@
+/* Awards Section */
+
+#awards {
+    background-color: #ffffff;
+    padding: 60px 20px 80px;
+    text-align: center;
+}
+
+.awards-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#awards h1 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #444444;
+    margin-bottom: 50px;
+}
+
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 45px;
+    row-gap: 40px;
+    align-items: center;
+    justify-items: center;
+}
+
+.awards-grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
