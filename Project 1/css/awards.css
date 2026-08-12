@@ -33,3 +33,36 @@
     height: 150px;
     object-fit: contain;
 }
+/* Medium */
+@media (max-width: 768px) {
+    .awards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .awards-grid img {
+        width: 120px;
+        height: 120px;
+    }
+
+    #awards h1 {
+        font-size: 36px;
+    }
+}
+
+/* small */
+@media (max-width: 480px) {
+    .awards-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .awards-grid img {
+        width: 130px;
+        height: 130px;
+    }
+
+    #awards h1 {
+        font-size: 30px;
+    }
+}
