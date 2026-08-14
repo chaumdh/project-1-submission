@@ -4,29 +4,26 @@ $(document).ready(function() {
     $('footer').append('<div id="footer3"></div>');
 
     // footer section 1
-    $('#footer1').append('<img id="footer-logo" src="images/wave-small.png">');
-
-    $('#footer1').append('<nav id="footer-menu"></nav>');
-    $('#footer-menu').append(`
-        <ul>
-            <!-- <li class="active"><a href="index.html">Home</a></li> -->
-            <li><a href="about.html">About</a></li>
-            <li><a href="locations.html">Locations</a></li>
-            <li><a href="faqs.html">FAQs</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="signin.html">Register / Sign In</a></li>
-            <li><a href="careers.html">Careers</a></li>
-        </ul>
-    `);
-
-    $('#footer1').append('<div id="social"></div>');
-    $('#social').append(`
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-yelp"></a>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-youtube"></a>
+    $('#footer1').append(`
+        <div class="footer-logo"><img src="images/wave-small.png" alt="Splashes"></div>
+        <div class="footer-nav-row">
+            <nav class="footer-links" aria-label="Graphics/footer-logo-wave-small.pngFooter navigation">
+            <a href="about.html">About</a>
+            <a href="locations.html">Locations</a>
+            <a href="swim-lessons.html#faq">FAQs</a>
+            <a href="contact.html">Contact</a>
+            <a href="#" data-open-signin>Register / Sign In</a>
+            <a href="#">Careers</a>
+            </nav>
+            <div class="social-icons">
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Yelp"><i class="fab fa-yelp"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
     `);
 
     // footer section 2

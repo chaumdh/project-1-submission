@@ -1,0 +1,125 @@
+@import 'variables.css';
+
+footer {
+    background-image: url("../images/footer-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 55px 20px 28px;
+    color: var(--navy);
+}
+
+/* footer #footer1 #footer-logo {
+    text-align: center;
+    margin: 2em;
+}
+
+footer #footer1 #footer-menu ul { <1200px 
+    text-align: center;
+    padding: 0;
+    float: left;
+}
+footer #footer1 #footer-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 1em;
+}
+footer #footer1 #footer-menu ul li a {
+    text-decoration: underline;
+    color: var(--navy);
+    font-family: var(--open-sans);
+}
+
+footer #footer1 #social { >=1200px
+    padding: 2.5em;
+    margin-right: 9.25em;
+    float: right;
+}
+footer #footer1 #social .fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+footer #footer1 #social .fa:hover {
+    opacity: 0.7;
+}
+footer #footer1 #social .fa-linkedin {
+    background: #375cac;
+    color: white;
+}
+footer #footer1 #social .fa-instagram {
+    background: #575e79;
+    color: white;
+}
+footer #footer1 #social .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+footer #footer1 #social .fa-yelp {
+    background: #ec4c4c;
+    color: white;
+}
+footer #footer1 #social .fa-facebook {
+    background: #7495dd;
+    color: white;
+}
+footer #footer1 #social .fa-youtube {
+    background: #d14545;
+    color: white;
+} */
+
+.footer-logo {
+  text-align: center;
+  margin-bottom: 28px;
+}
+.footer-logo img {
+  height: 56px;
+  margin: 0 auto;
+}
+.footer-nav-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgba(117, 117, 118, 0.28);
+  margin-bottom: 22px;
+}
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+}
+.footer-links a {
+  color: var(--navy);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+.footer-links a:hover { color: var(--brand-blue); }
+
+.social-icons {
+  display: flex;
+  gap: 8px;
+}
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--dark-navy);
+  color: var(--white) !important;
+  font-size: 0.8rem;
+  transition: background var(--transition);
+}
+.social-icons a:hover {
+  background: var(--brand-blue);
+  color: var(--white) !important;
+}
