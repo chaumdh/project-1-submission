@@ -65,14 +65,18 @@
 
 
 :root {
+    --white: #ffffff;
     --off-white: #E4EAEA;
     --navy: #1A2E38;
     --grey: #444444;
     --light-grey: #757576;
     --blue: #03B1F4;
+
     --bodoni-moda-titles: 'Bodoni_Moda_Titles', sans-serif;
     --bodoni-moda-headings: 'Bodoni_Moda_Headings', sans-serif;
     --henny-penny: 'Henny_Penny', sans-serif;
     --open-sans: 'Open_Sans', sans-serif;
     --snowburst-one: 'Snowburst_One', sans-serif;
+    
+    --transition: 0.25s ease;
 }

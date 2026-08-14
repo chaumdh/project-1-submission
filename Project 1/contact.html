@@ -1,29 +1,20 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <title>Splashes</title>
         <meta charset="utf-8">
         
 
-        <!-- Colors & Fonts -->
         <link rel="stylesheet" href="css/variables.css">
 
-        <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!-- External Style Method -->
-        <!-- <link rel="stylesheet" href="css/styles.css"> -->
-        <link rel="stylesheet" href="css/contact.css"> <!-- TODO: remove this line when contact.css is imported in styles.css -->
+        <link rel="stylesheet" href="css/contact.css"> TODO: remove this line when contact.css is imported in styles.css
 
-        <!-- jQuery -->
-        <!-- <script src="./jquery-4.0.0.min.js"></script> -->
-
-        <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     </head>
 
     <body id="contact">
-        <!-- Container to wrap everything -->
         <div id="container">
 
             <header></header>
@@ -32,7 +23,6 @@
             <footer></footer>
         </div>
         
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -41,4 +31,219 @@
         <script src="./js/contact.js"></script>
         <script src="./js/footer.js"></script>
     </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Splashes Aquatics — Contact Us Page -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Splashes Aquatics — new customer inquiries, party coordinator, concerns, pool rental, and more.">
+  <meta name="keywords" content="contact Splashes, swim school contact, pool rental, party coordinator">
+  <meta name="author" content="Splashes Aquatics">
+  <title>Contact Us | Splashes Aquatics</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="icon" href="images/shark-full.png" type="image/png">
+</head>
+<body id="contact">
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-splash navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="Graphics/header-splashes-logo-small.png" alt="Splashes Aquatics Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ml-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="swim-lessons.html">Swimming Lessons</a></li>
+          <li class="nav-item"><a class="nav-link" href="swim-programs.html">Swim Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="adult-programs.html">Adult Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="locations.html">Locations</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+          <li class="nav-item">
+            <a class="nav-link btn-nav-register" href="#" data-open-signin>Register / Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+  <header class="hero hero-contact">
+    <!-- <div class="hero-content">
+      <h1 class="hero-page-title">Contact Us</h1>
+    </div> -->
+  </header>
+
+  <section>
+    <p class="contact-intro">
+      We&rsquo;d love to help. Send us an email using one of the buttons below and a Splashes representative will get back to you as soon as possible.
+    </p>
+
+    <!-- Comment: Contact category cards open a Bootstrap modal form -->
+    <div class="contact-grid">
+      <a href="#" class="contact-card" data-contact-type="New Customer Inquiries">
+        <img src="images/icon-buttons/question.svg" alt="Question icon">
+        <span>New Customer<br>Inquiries</span>
+      </a>
+      <a href="#" class="contact-card" data-contact-type="Contact Party Coordinator">
+        <img src="images/icon-buttons/party-coordinator-form.svg" alt="Party icon">
+        <span>Contact Party<br>Coordinator</span>
+      </a>
+      <a href="#" class="contact-card" data-contact-type="Voice a Concern">
+        <img src="images/icon-buttons/concern.svg" alt="Concern icon">
+        <span>Voice a Concern</span>
+      </a>
+      <a href="#" class="contact-card" data-contact-type="Pool Rental">
+        <img src="images/icon-buttons/swimming-pool.svg" alt="Pool icon">
+        <span>Pool Rental</span>
+      </a>
+      <a href="#" class="contact-card" data-contact-type="Give a Suggestion">
+        <img src="images/icon-buttons/suggestion.svg" alt="Suggestion icon">
+        <span>Give a Suggestion</span>
+      </a>
+      <a href="#" class="contact-card" data-contact-type="Share a Compliment">
+        <img src="images/icon-buttons/compliment.svg" alt="Compliment icon">
+        <span>Share a Compliment</span>
+      </a>
+      <a href="#" class="contact-card" data-contact-type="Water Safety Presentation Inquiry">
+        <img src="images/icon-buttons/form.svg" alt="Form icon">
+        <span>Water Safety<br>Presentation Inquiry</span>
+      </a>
+      <a href="#" class="contact-card" data-contact-type="Parent & Me Lesson Interest">
+        <img src="images/icon-buttons/baby.svg" alt="Baby icon">
+        <span>Parent &amp; Me Lesson<br>Interest</span>
+      </a>
+    </div>
+  </section>
+
+  <div id="vue-newsletter"></div>
+
+  <footer class="footer-splash">
+    <!-- <div class="footer-inner">
+      <div class="footer-logo"><img src="Graphics/footer-logo-wave-small.png" alt="Splashes"></div>
+      <div class="footer-nav-row">
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="about.html">About</a>
+          <a href="locations.html">Locations</a>
+          <a href="swim-lessons.html#faq">FAQs</a>
+          <a href="contact.html">Contact</a>
+          <a href="#" data-open-signin>Register / Sign In</a>
+          <a href="#">Careers</a>
+        </nav>
+        <div class="social-icons">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Yelp"><i class="fab fa-yelp"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-phones">
+        <div class="phone-group"><strong>Orange County</strong><a href="tel:9494500777">(949) 450-0777</a></div>
+        <div class="phone-group"><strong>San Diego County</strong><a href="tel:7606039400">(760) 603-9400</a></div>
+        <div class="phone-group"><strong>Los Angeles County</strong><a href="tel:6268361200">(626) 836-1200</a></div>
+        <div class="phone-group"><strong>Northern California</strong><a href="tel:4082791700">(408) 279-1700</a></div>
+        <div class="phone-group"><strong>Denver</strong><a href="tel:7203447700">(720) 344-7700</a></div>
+      </div>
+      <div class="footer-bottom">
+        <div class="sponsor-logos">
+          <img src="images/sponsors/footer-usssa-logo-2.png" alt="USSSA">
+          <img src="images/sponsors/footer-ndpa-logo.png" alt="NDPA">
+          <img src="images/sponsors/footer-member-issa-logo.png" alt="ISSA Member">
+          <img src="images/sponsors/footer-stop-drowning-now-logo.png" alt="Stop Drowning Now">
+        </div>
+        <p class="copyright">&copy; 2022 Splashes.<br>All Rights Reserved</p>
+      </div>
+    </div> -->
+  </footer>
+
+  <!-- Contact form modal with submit button -->
+  <!-- <div class="modal fade contact-form-modal" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content" style="border-radius:12px;padding:20px;">
+        <div class="modal-header border-0">
+          <h2 class="modal-title" id="contactModalLabel" style="font-family:'Bodoni Moda',Georgia,serif;font-size:1.5rem;color:#1a2e38;">Contact</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <form id="contactForm">
+            <input type="hidden" id="contactFormType" value="">
+            <label for="contactName">Name *</label>
+            <input type="text" class="form-control" id="contactName" required>
+            <label for="contactEmail">Email *</label>
+            <input type="email" class="form-control" id="contactEmail" required>
+            <label for="contactMessage">Message *</label>
+            <textarea class="form-control" id="contactMessage" rows="4" required></textarea>
+            <button type="submit" class="btn-splash btn-primary-splash mt-3">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div class="modal fade modal-splash" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-top-logo">
+        <img src="Graphics/splash-wave.png" alt="Splashes">
+      </div>
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <img class="modal-shark" src="images/shark-full.png" alt="">
+        <div id="signInPanel">
+          <div class="modal-header"><h2 class="modal-title" id="signInModalLabel">SIGN IN</h2></div>
+          <div class="modal-body">
+            <form id="signInForm" novalidate>
+              <label for="signInEmail">Email *</label>
+              <input type="email" class="form-control" id="signInEmail" required>
+              <label for="signInPassword">Password *</label>
+              <input type="password" class="form-control" id="signInPassword" required>
+              <a href="#" class="forgot-link">Forgot Password?</a>
+              <div class="modal-actions">
+                <button type="submit" class="btn-splash btn-inactive">Sign In</button>
+                <button type="button" class="btn-splash btn-outline-splash" id="btnShowSignUp">Sign Up</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div id="signUpPanel" style="display:none;">
+          <div class="modal-header"><h2 class="modal-title">SIGN UP</h2></div>
+          <div class="modal-body">
+            <form id="signUpForm" novalidate>
+              <label for="signUpName">Full Name *</label>
+              <input type="text" class="form-control" id="signUpName" required>
+              <label for="signUpEmail">Email *</label>
+              <input type="email" class="form-control" id="signUpEmail" required>
+              <label for="signUpPassword">Password *</label>
+              <input type="password" class="form-control" id="signUpPassword" required>
+              <div class="modal-actions">
+                <button type="submit" class="btn-splash btn-primary-splash">Create Account</button>
+                <button type="button" class="btn-splash btn-outline-splash" id="btnShowSignIn">Sign In</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/vue-app.js"></script>
+
+    <script src="./js/header.js"></script>
+    <script src="./js/contact.js"></script>
+    <script src="./js/footer.js"></script>
+</body>
 </html>

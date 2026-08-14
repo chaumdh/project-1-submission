@@ -46,7 +46,7 @@
 
 #adultprograms h5 {
     font-family: var(--open-sans);
-    font-weight: 600; 
+    font-weight: 600; /* Uses your OpenSans-Semibold.ttf file */
     font-size: 1rem;
 }
 

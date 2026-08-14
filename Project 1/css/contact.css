@@ -6,6 +6,7 @@
 /* TODO: import contact.css into styles.css */
 #contact header .page-heading {
     background-image: url(../images/contact-hero.jpeg);
+    min-height: 280px;
 }
 .page-heading h1 {
     color: #ffffff;                             /* White text */
@@ -24,4 +25,50 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* --- Contact intro + icon grid --- */
+.contact-intro {
+  text-align: center;
+  padding: 48px 24px 28px;
+  max-width: 580px;
+  margin: 0 auto;
+  color: var(--light-grey);
+  font-size: 0.95rem;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px 24px;
+  max-width: 860px;
+  margin: 0 auto 70px;
+  padding: 10px 20px 20px;
+}
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 14px 24px;
+  background: var(--white);
+  border-radius: 6px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.07);
+  transition: transform var(--transition), box-shadow var(--transition);
+  border: none;
+  text-decoration: none !important;
+}
+.contact-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.contact-card img {
+  width: 58px;
+  height: 58px;
+  margin-bottom: 14px;
+}
+.contact-card span {
+  color: var(--blue);
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.35;
 }
