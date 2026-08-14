@@ -1,9 +1,10 @@
 $(document).ready(function() {
-    $('header').append('<div class="main-header"></div>');
+    $('header').append('<div class="main-header sticky-top"></div>');
     $('header').append('<div class="page-heading"></div>'); // to use for the title of every page
+    // $('.page-heading').addClass('d-flex justify-content-center align-items-center');
 
     // $('.main-header').append('<div class="logo"></div>');
-    $('.main-header').append('<nav class="navbar navbar-expand-sm navbar-dark" id="main-menu"></nav>');
+    $('.main-header').append('<nav class="navbar navbar-expand-xl navbar-dark" id="main-menu"></nav>');
     // $('.main-header').append('<button id="signin-btn">Register / Sign In</button>');
     // TODO: fix the position for signin-btn
 
