@@ -14,3 +14,42 @@
     font-weight: bold;
     text-align: center;
 }
+:root {
+    /* Colors */
+    --blue: #03B1F4;
+    --grey: #444444;
+    --navy: #1A2E38;
+
+    /* Font Families */
+    --bodoni-moda-titles: 'Bodoni_Moda_Titles', serif;
+    --bodoni-moda-headings: 'Bodoni_Moda_Headings', serif;
+    --open-sans: 'Open_Sans', sans-serif;
+}
+#adultprograms h2 {
+    font-family: var(--bodoni-moda-titles);
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+#adultprograms p {
+    font-family: var(--open-sans);
+    font-weight: normal;
+    font-size: 0.95rem;
+    color: var(--grey);
+    line-height: 1.6;
+}
+
+#adultprograms h5 {
+    font-family: var(--open-sans);
+    font-weight: 600; /* Uses your OpenSans-Semibold.ttf file */
+    font-size: 1rem;
+}
+
+#adultprograms .location-links a {
+    font-family: var(--open-sans);
+    font-weight: normal;
+    color: var(--blue);
+    text-decoration: underline;
+}
