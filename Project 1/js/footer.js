@@ -3,33 +3,6 @@ $(document).ready(function() {
     $('footer').append('<div id="footer2"></div>');
     $('footer').append('<div id="footer3"></div>');
 
-    // footer section 1
-// <<<<<<< Updated upstream
-    // $('#footer1').append('<img id="footer-logo" src="images/wave-small.png" alt="Splashes">');
-
-    // $('#footer1').append('<nav id="footer-menu"></nav>');
-    // $('#footer-menu').append(`
-    //     <ul>
-    //         <!-- <li class="active"><a href="index.html">Home</a></li> -->
-    //         <li><a href="about.html">About</a></li>
-    //         <li><a href="locations.html">Locations</a></li>
-    //         <li><a href="faqs.html">FAQs</a></li>
-    //         <li><a href="contact.html">Contact</a></li>
-    //         <li><a href="signin.html">Register / Sign In</a></li>
-    //         <li><a href="careers.html">Careers</a></li>
-    //     </ul>
-    // `);
-
-    // $('#footer1').append('<div id="social"></div>');
-    // $('#social').append(`
-    //     <a href="#" class="fa fa-linkedin"></a>
-    //     <a href="#" class="fa fa-instagram"></a>
-    //     <a href="#" class="fa fa-twitter"></a>
-    //     <a href="#" class="fa fa-yelp"></a>
-    //     <a href="#" class="fa fa-facebook"></a>
-    //     <a href="#" class="fa fa-youtube"></a>
-    // `);
-// <!-- ======= -->
     $('#footer1').append(`
         <div class="footer-logo"><img src="images/wave-small.png" alt="Splashes"></div>
         <div class="footer-nav-row">
@@ -51,7 +24,6 @@ $(document).ready(function() {
             </div>
         </div>
     `);
-// <!-- >>>>>>> Stashed changes -->
 
     // footer section 2
     $('#footer2').append(`
