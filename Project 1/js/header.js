@@ -40,9 +40,79 @@ $(document).ready(function() {
                 <li class="nav-item">
                     <a class="nav-link" href="adultprograms.html">Adult Programs</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="locations.html">Locations</a>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Location
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- Column 1 -->
+                                <div class="col-md-4">
+                                    <div class="location-group mb-4">
+                                        <h6 class="font-weight-bold text-dark mb-2">Orange County</h6>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Anaheim Hills @ LA Fitness</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Huntington Beach</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Irvine</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Yorba Linda @ LA Fitness</a>
+                                    </div>
+
+                                    <div class="location-group mb-4">
+                                        <h6 class="font-weight-bold text-dark mb-2">San Diego County</h6>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Carlsbad</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Poway @ LA Fitness</a>
+                                    </div>
+
+                                    <div class="location-group">
+                                        <h6 class="font-weight-bold text-dark mb-2">San Francisco</h6>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">San Francisco-20th Avenue @ City Sports Club</a>
+                                    </div>
+                                </div>
+
+                                <!-- Column 2 -->
+                                <div class="col-md-4">
+                                    <div class="location-group mb-4">
+                                        <h6 class="font-weight-bold text-dark mb-2">San Gabriel Valley</h6>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Alhambra-Fremont @ LA Fitness</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Arcadia @ LA Fitness</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Diamond Bar @ LA Fitness</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Pasadena</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">West Covina @ LA Fitness</a>
+                                    </div>
+
+                                    <div class="location-group">
+                                        <h6 class="font-weight-bold text-dark mb-2">Los Angeles County</h6>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Culver City @ LA Fitness</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Harbor City @ LA Fitness</a>
+                                    </div>
+                                </div>
+
+                                <!-- Column 3 -->
+                                <div class="col-md-4">
+                                    <div class="location-group mb-4">
+                                        <h6 class="font-weight-bold text-dark mb-2">Silicon Valley</h6>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">North San Jose @ City Sports Club</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">San Jose-Almaden @ City Sports Club</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">San Jose-Bascom</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">San Jose-Blossom Hill @ City Sports Club</a>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Sunnyvale @ City Sports Club</a>
+                                    </div>
+
+                                    <div class="location-group mb-4">
+                                        <h6 class="font-weight-bold text-dark mb-2">Alameda County</h6>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Hayward @ City Sports Club</a>
+                                    </div>
+
+                                    <div class="location-group">
+                                        <h6 class="font-weight-bold text-dark mb-2">Denver</h6>
+                                        <a class="dropdown-item p-0 text-primary mb-1" href="#">Highlands Ranch</a>
+                                    </div>
+                                </div>
+                        </div>
                 </li>
+
+
+
+
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
@@ -55,3 +125,8 @@ $(document).ready(function() {
 
     // TODO: if screen is larger than 1200 then make main-menu visible 
 });
+
+
+
+
+
