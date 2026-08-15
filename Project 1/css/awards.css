@@ -11,13 +11,13 @@
     margin: 0 auto;
 }
 
-#awards h1 {
-    font-family: "Bodoni Moda", serif;
-    font-size: 48px;
-    font-weight: bold;
-    color: #444444;
-    margin-bottom: 50px;
-}
+    #awards h1 {
+        font-family: "Bodoni Moda", serif;
+        font-size: 48px;
+        font-weight: bold;
+        color: #444444;
+        margin-bottom: 50px;
+    }
 
 .awards-grid {
     display: grid;
