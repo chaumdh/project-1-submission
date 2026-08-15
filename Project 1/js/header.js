@@ -46,8 +46,10 @@ $(document).ready(function() {
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Locations
                 </a>
-                <div class="dropdown-menu location-card w-100 p-3 border-0 shadow" aria-labelledby="navbarDropdown">
+                <div class="dropdown-menu location-card w-100 p-4 border-0 shadow" aria-labelledby="navbarDropdown">
                     <div class="container-fluid p-0">
+
+
                         <div class="row">
                             <!-- Left Column -->
                             <div class="col-6">
