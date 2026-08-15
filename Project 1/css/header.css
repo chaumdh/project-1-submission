@@ -70,4 +70,34 @@ header .main-header #main-menu #signin-btn {
     font-family: var(--open-sans);
     margin-left: 2em;
 }
+/* White dropdown container card */
+.location-card {
+    background-color: #ffffff !important;
+    border-radius: 4px;
+}
 
+/* Black bold category titles */
+.location-title {
+    font-weight: 700;
+    color: #111111;
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+}
+
+/* Light blue links matching the screenshot */
+.location-card .dropdown-item {
+    color: #38b6ff !important;
+    font-size: 0.75rem;
+    padding: 2px 0 !important;
+    white-space: normal;
+    background: transparent !important;
+}
+
+.location-card .dropdown-item:hover {
+    text-decoration: underline;
+}
+
+/* Dark slate background for header menu */
+.main-header {
+    background-color: #2c3e50;
+}
