@@ -1,14 +1,24 @@
 @import "variables.css";
 @import "header.css";
+@import "awards.css";
+@import "footer.css";
 
 /* HOME */
-/* TODO: import home.css into styles.css */
+#home header {
+    aspect-ratio: 1440/850; /* width/height of background image */
+}
 #home header .page-heading {
-    background-image: url(../images/home.jpeg);  
+    background-image: url(../images/home.jpeg);
+    background-size: 100% auto;
+    aspect-ratio: 1440/850; /* width/height of background image */
+}
+#home header .page-heading h1 {
+    height: auto;
+    margin: 1em 0;
 }
 #home header .page-heading button {
     position: relative;
-    top: 400px;
+    /* top: 400px; */
     padding: 2em;
     font-family: var(--open-sans);
     font-weight: 600px;
