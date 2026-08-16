@@ -41,6 +41,8 @@ header .page-heading h1 {
     color: #fff;
     width: 600px;
     text-align: center;
+    /* Subtle drop shadow to increase readability over the background image */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 @media (max-width: 768px) {
     header .page-heading h1 {
