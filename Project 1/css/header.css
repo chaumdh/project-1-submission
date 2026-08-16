@@ -19,11 +19,21 @@ header .page-heading {
     background-attachment: scroll;
     background-size: cover;
 }
+@media (max-width: 1199.9px) {
+    header, header .page-heading {
+        min-height: 425px; /* height of most backgrounds */
+    }
+}
 @media (min-width: 1200px) {
     header .page-heading {
         background-position: top center;
+        background-size: 100% auto;
         position: absolute;
         top: 0;
+        aspect-ratio: 1440/425; /* width/height of most background images */
+    }
+    header {
+        aspect-ratio: 1440/334; /* 1440/(425-91) */
     }
 }
 header .page-heading h1 {
@@ -32,15 +42,34 @@ header .page-heading h1 {
     width: 600px;
     text-align: center;
 }
+@media (max-width: 768px) {
+    header .page-heading h1 {
+        font-size: 2.8em;
+        margin: 1em 3em;
+    }
+}
 
 /* sticky nav bar */
 .sticky-nav-bar {
     background-color: var(--navy);
 }
+@media (min-width: 768px) {
+    .sticky-nav-bar #main-menu .navbar-brand img {
+        width: 18em;
+    } 
+}
 @media (min-width: 1200px) {
     .sticky-nav-bar {
         background-color: rgba(26, 46, 56, 0.9);
     }
+    .sticky-nav-bar #main-menu .navbar-brand img {
+        width: 11em;
+    } 
+}
+.sticky-nav-bar #main-menu #navbarNavDropdown {
+    justify-content: right;
+    text-align: center;
+    margin-bottom: 2em;
 }
 .sticky-nav-bar #main-menu .navbar-brand img {
     max-width: 400px;
@@ -55,13 +84,10 @@ header .page-heading h1 {
     background-color: #fff;
     color: var(--blue);
     height: fit-content;
-    width: 10em;
     border: 1px solid #fff;
     border-radius: 500px;
-    padding: 0.3em 0.5em 0.5em 0.5em;
     text-align: center;
     font-family: var(--open-sans);
-    margin-left: 2em;
 }
 /* White dropdown container card */
 .location-card {

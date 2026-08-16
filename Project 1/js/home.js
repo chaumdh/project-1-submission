@@ -4,6 +4,6 @@ $(document).ready(function() {
     
     $('.page-heading').append('<div class="page-heading-buttons"></div>');
     $('.page-heading-buttons').addClass('d-flex justify-content-center align-items-center');
-    $('.page-heading-buttons').append('<button>Informational Video</button>');
-    $('.page-heading-buttons').append('<button>Swimvenger Video</button>');
+    $('.page-heading-buttons').append('<button class="btn btn-outline-primary rounded-pill bg-white">Informational Video</button>');
+    $('.page-heading-buttons').append('<button class="btn btn-outline-primary rounded-pill bg-white">Swimvenger Video</button>');
 });

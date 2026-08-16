@@ -18,7 +18,6 @@
 }
 #home header .page-heading button {
     position: relative;
-    /* top: 400px; */
     padding: 2em;
     font-family: var(--open-sans);
     font-weight: 600px;
@@ -28,6 +27,12 @@
     border-radius: 100px;
     margin: 5px;
 }
+@media (max-width: 576px) {
+    #home header .page-heading .page-heading-buttons {
+        flex-direction: column;
+    }
+}
+
 #home main #ads {
     text-align: center;
 }
