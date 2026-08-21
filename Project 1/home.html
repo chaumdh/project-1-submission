@@ -5,22 +5,11 @@
         <meta charset="utf-8">
         <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
 
-        <!-- Colors & Fonts -->
-        <link rel="stylesheet" href="css/variables.css">
-
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!-- External Style Method -->
-        <!-- <link rel="stylesheet" href="css/styles.css"> -->
-        <link rel="stylesheet" href="css/home.css"> <!-- TODO: remove this line when home.css is imported in styles.css -->
+        <link rel="stylesheet" href="css/home.css"> <!-- imported css files for variables, header, awards, and footer in home.css -->
 
-<link rel="stylesheet" href="css/footer.css">
-<link rel="stylesheet" href="css/awards.css">
-
-        <!-- jQuery -->
-        <!-- <script src="./jquery-4.0.0.min.js"></script> -->
-        
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     </head>
@@ -34,23 +23,29 @@
             
             
             <main>
-                <div id="ads">
-                    <img src="images/register-online-here-banner.png">
-                    <img src="images/ww-site-hiring-banner-resized.png">
+                <div id="ads" class="d-flex flex-column justify-content-center align-items-center ">
+                    <img src="images/register-online-here-banner.png" class="img-fluid">
+                    <img src="images/ww-site-hiring-banner-resized.png" class="img-fluid">
                 </div>
 
                 <div id="hands-on-teaching">
-                    <h2>Hands On Teaching</h2>
-                    <p>Splashes Aquatics Swim School provides high quality swim instruction and the ideal environment for learning how to swim. Our swim instructors use specialized “muscle memory” teaching techniques that help our students progress at a quick rate. Grouped by age and ability, our students benefit from swim classes that offer personalized attention. It's never too late to learn to swim!</p>
+                    <div id="hands-on-teaching-text">
+                        <h2>Hands On Teaching</h2>
+                        <p>Splashes Aquatics Swim School provides high quality swim instruction and the ideal environment for learning how to swim. Our swim instructors use specialized “muscle memory” teaching techniques that help our students progress at a quick rate. Grouped by age and ability, our students benefit from swim classes that offer personalized attention. It's never too late to learn to swim!</p>
+                        
+                        <p id="offers">Splashes Offers:</p>
+                        <ul>
+                            <li><a href="lessons.html#private">Private Swimming Lessons</a> - All Locations</li>
+                            <li><a href="lessons.html#semi-private">Semi-Private Swimming Lessons</a> - All Locations</li>
+                            <li><a href="lessons.html#parent-and-me">Parent & Me (Baby) Swimming Lessons</a> - Select Locations</li>
+                        </ul>
+                        <p>Select locations also offer additional swim programs such as swim competitions, swim teams, water aerobics, aquatic therapy, swim camps and more! To learn more about the Splashes Family Swim School near you, select a location below.</p>
+                        <p>Ready to sign up?</p>
+                        <div id="register-now" class="align-items-center justify-content-center">
+                            <button class="btn rounded-pill w-4 my-10 justify-content-center">REGISTER NOW</button>
+                        </div>
+                    </div>
                     
-                    <ul>Splashes Offers:
-                        <li><a href="lessons.html">Private Swimming Lessons</a> - All Locations</li>
-                        <li><a href="lessons.html">Semi-Private Swimming Lessons</a> - All Locations</li>
-                        <li><a href="lessons.html">Parent & Me (Baby) Swimming Lessons</a> - Select Locations</li>
-                    </ul>
-                    <p>Select locations also offer additional swim programs such as swim competitions, swim teams, water aerobics, aquatic therapy, swim camps and more! To learn more about the Splashes Family Swim School near you, select a location below.</p>
-                    <p>Ready to sign up?</p>
-                    <button>REGISTER NOW</button>
                     <!-- <img src="images/home-hands-on-teaching.jpeg"> -->
                 </div>
                 <div id="home-locations">
@@ -64,27 +59,7 @@
                 
             </main>
 
-
-
-            
-            <section>
-
-                <section id="awards"></section>
-                <!-- <div>
-                    <h1>Awards We've Won</h1>
-                    <img src="images/awards/colorado-parenting-family-fav2021.png">
-                    <img src="images/awards/bay-area-parent-gold2020.png">
-                    <img src="images/awards/mla-swim-lessons-winner-2020-250x250.png">
-                    <img src="images/awards/colorado-parenting-family-fav2020.png">
-                    <img src="images/awards/website-parenting-oc-2019.jpeg">
-                    <img src="images/awards/colorado-parenting-family-fav2019.jpeg">
-                    <img src="images/awards/bay-area-parent-2019.jpeg">
-                    <img src="images/awards/best-of-la-kids-winner.jpeg">
-                    <img src="images/awards/gold-daisy-award-finalist-2018.jpeg">
-                    <img src="images/awards/best-of-the-best-2018.jpeg">
-                </div> -->
-            </section>
-            
+            <section id="awards"></section>
             <footer></footer>
 
         </div> <!-- End Container -->
@@ -96,7 +71,7 @@
 
         <script src="./js/header.js"></script>
         <script src="./js/home.js"></script>
-        <script src="./js/footer.js"></script>
         <script src="./js/awards.js"></script>
+        <script src="./js/footer.js"></script>
     </body>
 </html>

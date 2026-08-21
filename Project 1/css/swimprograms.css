@@ -5,9 +5,6 @@
 /* SWIM PROGRAMS */
 #swimprograms header .page-heading {
     background-image: url(../images/summer-swim-camps.jpeg); 
-    background-size: 100% auto;
-    height: 30em;
-    /* margin-top: -10px; */
 }
 
 .page-heading h1 {
