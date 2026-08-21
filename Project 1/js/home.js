@@ -4,6 +4,12 @@ $(document).ready(function() {
     
     $('.page-heading').append('<div class="page-heading-buttons"></div>');
     $('.page-heading-buttons').addClass('d-flex justify-content-center align-items-center');
-    $('.page-heading-buttons').append('<button class="btn btn-outline-primary rounded-pill bg-white">Informational Video</button>');
-    $('.page-heading-buttons').append('<button class="btn btn-outline-primary rounded-pill bg-white">Swimvenger Video</button>');
+    $('.page-heading-buttons').append('<button class="btn btn-outline-primary rounded-pill bg-white p-4">Informational Video</button>');
+    $('.page-heading-buttons').append('<button class="btn btn-outline-primary rounded-pill bg-white p-4">Swimvenger Video</button>');
 });
+
+// TODO 
+// reduce the logo size on smaller 
+// fix 2 buttons on heading for differnt screen sizes
+// add styling for hovering over button in header
+// find a location near you, and at diff screen sizes

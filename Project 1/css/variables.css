@@ -2,13 +2,13 @@
     font-family: 'Bodoni_Moda_Titles';
     src: url('/Project 1/Fonts/Bodoni_Moda/static/BodoniModa_72pt/BodoniModa_72pt-Bold.ttf');
     font-weight: bold;
-    font-size: 48px;
+    font-size: 3em;
 }
 @font-face {
     font-family: 'Bodoni_Moda_Headings';
     src: url('/Project 1/Fonts/Bodoni_Moda/static/BodoniModa_72pt/BodoniModa_72pt-Bold.ttf');
     font-weight: bold;
-    font-size: 32px;
+    font-size: 2em;
 }
 @font-face {
     font-family: 'Henny_Penny';
