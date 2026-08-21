@@ -55,6 +55,16 @@ header .page-heading h1 {
 .sticky-nav-bar {
     background-color: var(--navy);
 }
+@media (max-width: 575.9px) {
+    .sticky-nav-bar #main-menu .navbar-brand img {
+        width: 10em;
+    } 
+}
+@media (min-width: 576px) {
+    .sticky-nav-bar #main-menu .navbar-brand img {
+        width: 15em;
+    } 
+}
 @media (min-width: 768px) {
     .sticky-nav-bar #main-menu .navbar-brand img {
         width: 18em;
@@ -117,7 +127,6 @@ header .page-heading h1 {
     font-size: 0.85rem;
     margin-bottom: 4px;
 }
-
 
 .location-card .dropdown-item {
     color: #38b6ff !important;
