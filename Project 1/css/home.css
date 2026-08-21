@@ -3,12 +3,6 @@
 @import "awards.css";
 @import "footer.css";
 
-:root {
-    /* Colors */
-    --blue-brand: #03B1F4;
-    --grey: #444444;
-    --navy: #1A2E38;
-}
 /* HOME */
 #home header {
     aspect-ratio: 1440/850; /* width/height of background image */
@@ -24,9 +18,8 @@
 }
 #home header .page-heading button {
     position: relative;
-    /* padding: 2em; */
     font-family: var(--open-sans);
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 20px;
     color: var(--blue-brand);
     background-color: var(--white);
@@ -58,6 +51,7 @@
     /* max-width: 500px; */
     margin: 0px 3em;
     font-family: var(--open-sans);
+    font-weight: 100;
     padding: 100px 0;
     color: var(--grey);
 }
@@ -67,7 +61,8 @@
     margin-bottom: 20px;
 }
 #home main #hands-on-teaching #hands-on-teaching-text p#offers {
-    font-weight: bold;
+    font-weight: 900;
+    font-style: bold;
 }
 #home main #hands-on-teaching div ul a {
     text-decoration: underline;
@@ -79,22 +74,41 @@
     display: flex;
     padding: 12px 0;
 }
-#home main #hands-on-teaching .btn {
+#home main #hands-on-teaching .btn, #home main #home-locations .btn {
     background-color: var(--blue-brand);
     color: var(--white);
+    font-weight: 600;
     margin: 0 auto;
 }
-#home main #hands-on-teaching .btn:hover {
+#home main #hands-on-teaching .btn:hover, #home main #home-locations .btn:hover {
     background-color: var(--white);
     color: var(--blue-brand);
-
 }
+
 #home main #home-locations {
-    background: no-repeat lightgrey url(../images/home-our-locations-bg.jpeg);
+    background-image: url(../images/home-our-locations-bg.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: fixed;
+    background-position: center;
     height: 752px;
+    z-index: 0;
+    color: var(--white);
+}
+#home main #home-locations-text {
+    padding: 0 9em;
+}
+#home main #home-locations h1 {
+    font-family: var(--bodoni-moda-headings);
+    padding-bottom: 1em;
+}
+#home main #home-locations h2 {
+    font-family: var(--bodoni-moda-headings);
+    padding-bottom: 1em;
+}
+#home main #home-locations p {
+    font-family: var(--open-sans);
+    padding-bottom: 1em;
+    font-weight: 100;
 }
 
 @media (min-width: 1200px) {
@@ -111,4 +125,13 @@
         margin: 0px 5em;
         max-width: 500px;
     }
+    #home main #home-locations-map {
+        background-image: url(../images/home-our-locations-map.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 752px;
+        z-index: 1;
+    }
+    /* TODO: change heading text size based on screen size */
 }

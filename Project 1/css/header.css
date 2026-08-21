@@ -84,12 +84,13 @@ header .page-heading h1 {
 }
 .sticky-nav-bar #main-menu #signin-btn {
     background-color: #fff;
-    color: var(--blue);
+    color: var(--blue-brand);
     height: fit-content;
     border: 1px solid #fff;
     border-radius: 500px;
     text-align: center;
     font-family: var(--open-sans);
+    font-weight: 600;
 }
 /* White dropdown container card */
 .location-card {

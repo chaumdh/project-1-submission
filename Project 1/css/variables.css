@@ -16,45 +16,41 @@
 }
 @font-face {
     font-family: 'Open_Sans';
-    src: url('/Project 1/Fonts/open-sans/Open Sans Bold Italic.ttf');
-    font-size: 16px;
-    font-style: bold;
-}
-@font-face {
-    font-family: 'Open_Sans';
     src: url('/Project 1/Fonts/open-sans/OpenSans-Italic.ttf');
-    font-size: 16px;
+    font-size: 1em;
     font-style: italic;
 }
 @font-face {
     font-family: 'Open_Sans';
     src: url('/Project 1/Fonts/open-sans/OpenSans-Light.ttf');
-    font-size: 16px;
-    font-style: light;
+    font-size: 1em;
+    font-weight: 100;
 }
 @font-face {
     font-family: 'Open_Sans';
     src: url('/Project 1/Fonts/open-sans/OpenSans-LightItalic.ttf');
-    font-size: 16px;
-    font-style: light italic;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 100;
 }
 @font-face {
     font-family: 'Open_Sans';
     src: url('/Project 1/Fonts/open-sans/OpenSans-Regular.ttf');
-    font-size: 16px;
+    font-size: 1em;
     font-style: normal;
+    font-weight: 300;
 }
 @font-face {
     font-family: 'Open_Sans';
     src: url('/Project 1/Fonts/open-sans/OpenSans-Semibold.ttf');
-    font-size: 16px;
+    font-size: 1em;
     font-style: normal;
-    font_weight: 600;
+    font-weight: 600;
 }
 @font-face {
     font-family: 'Open_Sans';
     src: url('/Project 1/Fonts/open-sans/OpenSans-SemiboldItalic.ttf');
-    font-size: 16px;
+    font-size: 1em;
     font-style: italic;
     font-weight: 600;
 }
@@ -70,10 +66,12 @@
     --navy: #1A2E38;
     --grey: #444444;
     --light-grey: #757576;
-    --blue: #03B1F4;
+    --blue-brand: #03B1F4;
 
-    --bodoni-moda-titles: 'Bodoni_Moda_Titles', sans-serif;
-    --bodoni-moda-headings: 'Bodoni_Moda_Headings', sans-serif;
+    --georgia: 'Georgia', serif;
+    --bodoni-moda: "Bodoni Moda", serif;
+    --bodoni-moda-titles: 'Bodoni_Moda_Titles', serif;
+    --bodoni-moda-headings: 'Bodoni_Moda_Headings', serif;
     --henny-penny: 'Henny_Penny', sans-serif;
     --open-sans: 'Open_Sans', sans-serif;
     --snowburst-one: 'Snowburst_One', sans-serif;
