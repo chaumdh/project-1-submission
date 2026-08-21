@@ -1,58 +1,47 @@
-<!doctype html>
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <title>About Splashes</title>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
-    <link rel="stylesheet" href="css/variables.css" />
+    <!-- Colors & Fonts -->
+    <link rel="stylesheet" href="css/variables.css">
 
     <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="css/about.css" />
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/awards.css">
+</head>
 
+<body id="about">
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-  </head>
-
-  <body id="about">
     <div id="container">
-      <!-- Header will be added with header.js -->
-      <header></header>
 
-      <main>
-      
-        <section id="about-hero">
-          <h1>About Splashes</h1>
-        </section>
+        <!-- Shared Header -->
+        <header></header>
 
-   
-        <section id="philosophy">
-          <h2>Our Philosophy</h2>
+        <!-- About content added with about.js -->
+        <main id="about-content"></main>
 
-          <p>
-            Our mission is to educate and motivate individuals to be safer and
-            learn proper swimming technique.
-          </p>
-        </section>
-      </main>
+        <!-- Awards added with awards.js -->
+        <section id="awards"></section>
 
-      
-      <footer></footer>
+        <!-- Shared Footer -->
+        <footer></footer>
+
     </div>
+
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -60,11 +49,15 @@
     <!-- Popper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <!-- Bootstrap JS -->
+    <!-- Bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- Shared JS -->
+    <!-- Project JS -->
     <script src="./js/header.js"></script>
+    <script src="./js/about.js"></script>
+    <script src="./js/awards.js"></script>
     <script src="./js/footer.js"></script>
-  </body>
+
+</body>
+
 </html>

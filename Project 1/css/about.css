@@ -1,0 +1,190 @@
+/* ABOUT PAGE */
+
+#about {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+#about-content {
+    width: 100%;
+}
+
+
+/* ========================
+   ABOUT HERO
+======================== */
+
+#about-hero {
+    width: 100%;
+    height: 290px;
+
+    background-image: url("../images/about-us-hero.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title h1 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* ========================
+   SHARED ABOUT TEXT
+======================== */
+
+.about-text {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-text h2 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #444444;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444444;
+}
+
+
+/* ========================
+   OUR PHILOSOPHY
+======================== */
+
+#philosophy {
+    min-height: 340px;
+    padding: 65px 25px;
+
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* ========================
+   GOOD JOB
+======================== */
+
+#good-job {
+    min-height: 410px;
+    padding: 70px 25px;
+
+    background-color: #E4EAEA;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+#good-job a {
+    display: inline-block;
+    margin-top: 25px;
+
+    color: #03B1F4;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+#good-job a:hover {
+    color: #1A2E38;
+}
+
+
+/* ========================
+   TABLET
+   577px - 1199px
+======================== */
+
+@media (max-width: 1199px) {
+
+    #about-hero {
+        height: 395px;
+    }
+
+    .hero-title h1 {
+        font-size: 42px;
+    }
+
+    .about-text {
+        max-width: 85%;
+    }
+
+    .about-text h2 {
+        font-size: 38px;
+    }
+
+    #philosophy {
+        min-height: 340px;
+    }
+
+    #good-job {
+        min-height: 390px;
+    }
+}
+
+
+/* ========================
+   MOBILE
+   576px AND BELOW
+======================== */
+
+@media (max-width: 576px) {
+
+    #about-hero {
+        height: 480px;
+        background-position: center;
+    }
+
+    .hero-title h1 {
+        font-size: 36px;
+    }
+
+    .about-text {
+        max-width: 100%;
+    }
+
+    .about-text h2 {
+        font-size: 34px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    #philosophy {
+        min-height: 380px;
+        padding: 55px 25px;
+    }
+
+    #good-job {
+        min-height: 575px;
+        padding: 80px 25px;
+    }
+
+    #good-job a {
+        margin-top: 45px;
+    }
+}
