@@ -77,10 +77,16 @@ header .page-heading h1 {
     max-width: 400px;
     height: auto;
 }
+.sticky-nav-bar #main-menu .navbar-brand img:hover {
+    opacity: 0.5;
+}
 .sticky-nav-bar #main-menu ul li a {
     text-decoration: none;
     color: #fff;
     font-family: var(--open-sans);
+}
+.sticky-nav-bar #main-menu ul li a:hover {
+    color: var(--blue-brand);
 }
 .sticky-nav-bar #main-menu #signin-btn {
     background-color: #fff;
@@ -92,6 +98,12 @@ header .page-heading h1 {
     font-family: var(--open-sans);
     font-weight: 600;
 }
+.sticky-nav-bar #main-menu #signin-btn:hover {
+    background-color: var(--blue-brand);
+    color: var(--white);
+    border: 1px solid var(--blue-brand);
+}
+
 /* White dropdown container card */
 .location-card {
     background-color: #ffffff !important;
