@@ -16,20 +16,20 @@ body#signin-page {
     padding: 0 15px;
 }
 
-/* Header Brand Logo */
+
 .brand-logo {
     max-width: 260px;
     height: auto;
     margin-bottom: 2rem;
 }
 
-/* Outer Wrapper for relative positioning of mascot */
+
 .signin-card-wrapper {
     position: relative;
     width: 100%;
 }
 
-/* Mascot overlapping left side */
+
 .mascot-img {
     position: absolute;
     left: -45px;
@@ -38,7 +38,7 @@ body#signin-page {
     z-index: 10;
 }
 
-/* White Form Card */
+
 .signin-card {
     background: #ffffff;
     border-radius: 8px;
@@ -59,7 +59,7 @@ body#signin-page {
 
 label {
     font-size: 0.9rem;
-    color: #d9534f; /* Reddish tone matching image labels */
+    color: #d9534f; 
     font-weight: 500;
 }
 
