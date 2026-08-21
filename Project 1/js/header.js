@@ -112,8 +112,10 @@ $(document).ready(function() {
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
+                
+                
                 <li class="nav-item mx-3">
-                    <button id="signin-btn" class="btn btn-outline-primary rounded-pill w-100">Register / Sign In</button>
+                    <button id="signin-btn" class="btn btn-outline-primary rounded-pill w-100" onclick="window.location.href='signin.html'">Register / Sign In</button>
                 </li>
             </ul>
         </div>
